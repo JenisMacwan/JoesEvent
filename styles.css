@@ -68,10 +68,10 @@ a {
   place-items: center;
   width: 38px;
   height: 38px;
-  color: var(--white);
-  background: var(--teal);
-  border-radius: 8px;
-  box-shadow: 0 10px 24px rgba(15, 118, 110, 0.3);
+  /* color: var(--white); */
+  /* background: var(--teal); */
+  border-radius: 20px;
+  /* box-shadow: 0 10px 24px; */
 }
 
 .nav-links {
