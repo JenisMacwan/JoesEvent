@@ -1,219 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JoesEvent | Professional Event Management</title>
-    <meta
-      name="description"
-      content="JoesEvent is a polished event management website for corporate events, weddings, concerts, festivals, and private celebrations."
-    />
-    <link rel="preconnect" href="https://images.unsplash.com" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="site-header" id="top">
-      <nav class="navbar" aria-label="Main navigation">
-        <a class="brand" href="#home" aria-label="JoesEvent home">
-          <span ><img class="brand-mark" src="./images/logo.png" >   </span>
-          <span>JoesEvent</span>
-        </a>
 
-        <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JoesEvent</title>
+  <meta name="description"
+    content="JoesEvent is a polished event management website for corporate events, weddings, concerts, festivals, and private celebrations." />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="icon" type="image/png" href="./images/logo.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
-        <div class="nav-links">
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#events">Events</a>
-          <a href="#updates">Updates</a>
-          <a href="#contact">Contact</a>
+</head>
+
+<body>
+  <header class="site-header" id="top">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="JoesEvent home">
+        <span><img class="brand-mark" src="./images/logo.png"> </span>
+        <span>JoesEvent</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="./events.html">Events</a>
+        <a href="#updates">Updates</a>
+        <a href="#contact">Contact</a>
+        
+
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-bg" role="img" aria-label="Elegant event hall with lighting and guests"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">Premium Event Management</p>
+        <h1>Plan unforgettable events with elegance, energy, and zero stress.</h1>
+        <p class="hero-copy">
+          From corporate summits to luxury weddings, JoesEvent designs smooth, stylish experiences that keep every guest
+          engaged.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#events">Explore Events</a>
+          <a class="btn secondary" href="#contact">Book Consultation</a>
         </div>
-      </nav>
-    </header>
+      </div>
+    </section>
 
-    <main>
-      <section class="hero" id="home">
-        <div class="hero-bg" role="img" aria-label="Elegant event hall with lighting and guests"></div>
-        <div class="hero-overlay"></div>
-        <div class="hero-content reveal">
-          <p class="eyebrow">Premium Event Management</p>
-          <h1>Plan unforgettable events with elegance, energy, and zero stress.</h1>
-          <p class="hero-copy">
-            From corporate summits to luxury weddings, JoesEvent designs smooth, stylish experiences that keep every guest engaged.
+    <section class="stats" aria-label="JoesEvent achievements">
+      <div class="stat reveal">
+        <strong data-count="420">0</strong>
+        <span>Events Delivered</span>
+      </div>
+      <div class="stat reveal">
+        <strong data-count="38">0</strong>
+        <span>Cities Covered</span>
+      </div>
+      <div class="stat reveal">
+        <strong data-count="96">0</strong>
+        <span>Client Satisfaction</span>
+      </div>
+      <div class="stat reveal">
+        <strong data-count="12">0</strong>
+        <span>Years Experience</span>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-text reveal">
+        <p class="eyebrow">About Us</p>
+        <h2>Creative planning with professional control.</h2>
+        <p>
+          We manage every detail: theme development, vendor coordination, guest flow, stage production, hospitality, and
+          live-day operations.
+          Our team brings calm execution and fresh ideas to every celebration.
+        </p>
+        <div class="feature-list">
+          <span>Luxury styling</span>
+          <span>Smart budgeting</span>
+          <span>Trusted vendors</span>
+          <span>Live event support</span>
+        </div>
+      </div>
+      <div class="image-stack reveal">
+        <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=900&q=80"
+          alt="Decorated banquet event table" />
+        <img src="https://images.unsplash.com/photo-1505236858219-8359eb29e329?auto=format&fit=crop&w=720&q=80"
+          alt="Concert audience with lights" />
+      </div>
+    </section>
+
+    <section class="section services">
+      <div class="section-heading reveal">
+        <p class="eyebrow">What We Manage</p>
+        <h2>Everything your event needs, handled beautifully.</h2>
+      </div>
+      <div class="service-grid">
+        <article class="service-card reveal">
+          <span class="service-icon">01</span>
+          <h3>Corporate Events</h3>
+          <p>Conferences, award nights, launches, annual meetings, and brand activations with sharp execution.</p>
+        </article>
+        <article class="service-card reveal">
+          <span class="service-icon">02</span>
+          <h3>Weddings</h3>
+          <p>Venue styling, rituals, guest hospitality, entertainment, and timeline management for unforgettable days.
           </p>
-          <div class="hero-actions">
-            <a class="btn primary" href="#events">Explore Events</a>
-            <a class="btn secondary" href="#contact">Book Consultation</a>
+        </article>
+        <article class="service-card reveal">
+          <span class="service-icon">03</span>
+          <h3>Concerts & Festivals</h3>
+          <p>Stage planning, crowd flow, artist coordination, lighting, sound, and sponsor experience.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section events" id="events">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Featured Events</p>
+        <h2>Upcoming experiences crafted for every audience.</h2>
+      </div>
+
+      <div class="filters reveal" aria-label="Event filters">
+        <button class="filter active" type="button" data-filter="all">All</button>
+        <button class="filter" type="button" data-filter="corporate">Corporate</button>
+        <button class="filter" type="button" data-filter="wedding">Wedding</button>
+        <button class="filter" type="button" data-filter="festival">Festival</button>
+      </div>
+
+      <div class="event-grid">
+        <article class="event-card reveal" data-category="corporate">
+          <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=800&q=80"
+            alt="Corporate conference audience" />
+          <div>
+            <p>Aug 18, 2026</p>
+            <h3>Global Business Summit</h3>
+            <span>Delhi Convention Center</span>
           </div>
-        </div>
-      </section>
-
-      <section class="stats" aria-label="JoesEvent achievements">
-        <div class="stat reveal">
-          <strong data-count="420">0</strong>
-          <span>Events Delivered</span>
-        </div>
-        <div class="stat reveal">
-          <strong data-count="38">0</strong>
-          <span>Cities Covered</span>
-        </div>
-        <div class="stat reveal">
-          <strong data-count="96">0</strong>
-          <span>Client Satisfaction</span>
-        </div>
-        <div class="stat reveal">
-          <strong data-count="12">0</strong>
-          <span>Years Experience</span>
-        </div>
-      </section>
-
-      <section class="section about" id="about">
-        <div class="section-text reveal">
-          <p class="eyebrow">About Us</p>
-          <h2>Creative planning with professional control.</h2>
-          <p>
-            We manage every detail: theme development, vendor coordination, guest flow, stage production, hospitality, and live-day operations.
-            Our team brings calm execution and fresh ideas to every celebration.
-          </p>
-          <div class="feature-list">
-            <span>Luxury styling</span>
-            <span>Smart budgeting</span>
-            <span>Trusted vendors</span>
-            <span>Live event support</span>
+        </article>
+        <article class="event-card reveal" data-category="wedding">
+          <img src="https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&w=800&q=80"
+            alt="Wedding ceremony decoration" />
+          <div>
+            <p>Sep 09, 2026</p>
+            <h3>Royal Wedding Showcase</h3>
+            <span>Udaipur Lake Palace</span>
           </div>
-        </div>
-        <div class="image-stack reveal">
-          <img
-            src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=900&q=80"
-            alt="Decorated banquet event table"
-          />
-          <img
-            src="https://images.unsplash.com/photo-1505236858219-8359eb29e329?auto=format&fit=crop&w=720&q=80"
-            alt="Concert audience with lights"
-          />
-        </div>
-      </section>
+        </article>
+        <article class="event-card reveal" data-category="festival">
+          <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80"
+            alt="Festival crowd with stage lights" />
+          <div>
+            <p>Oct 22, 2026</p>
+            <h3>Neon Nights Festival</h3>
+            <span>Mumbai Open Grounds</span>
+          </div>
+        </article>
+      </div>
+    </section>
 
-      <section class="section services">
-        <div class="section-heading reveal">
-          <p class="eyebrow">What We Manage</p>
-          <h2>Everything your event needs, handled beautifully.</h2>
-        </div>
-        <div class="service-grid">
-          <article class="service-card reveal">
-            <span class="service-icon">01</span>
-            <h3>Corporate Events</h3>
-            <p>Conferences, award nights, launches, annual meetings, and brand activations with sharp execution.</p>
-          </article>
-          <article class="service-card reveal">
-            <span class="service-icon">02</span>
-            <h3>Weddings</h3>
-            <p>Venue styling, rituals, guest hospitality, entertainment, and timeline management for unforgettable days.</p>
-          </article>
-          <article class="service-card reveal">
-            <span class="service-icon">03</span>
-            <h3>Concerts & Festivals</h3>
-            <p>Stage planning, crowd flow, artist coordination, lighting, sound, and sponsor experience.</p>
-          </article>
-        </div>
-      </section>
+    <section class="section updates" id="updates">
+      <div class="section-heading reveal">
+        <p class="eyebrow">News & Updates</p>
+        <h2>Fresh ideas from the event floor.</h2>
+      </div>
+      <div class="update-grid">
+        <article class="update-card reveal">
+          <time datetime="2026-07-02">July 02, 2026</time>
+          <h3>How immersive lighting is changing luxury celebrations</h3>
+          <p>Layered lighting, projection moments, and warm ambient zones now shape the emotional rhythm of premium
+            events.</p>
+        </article>
+        <article class="update-card reveal">
+          <time datetime="2026-06-25">June 25, 2026</time>
+          <h3>Corporate event checklists that actually save time</h3>
+          <p>Strong timelines, clear ownership, and early vendor locks make conferences feel calm from registration to
+            closing.</p>
+        </article>
+        <article class="update-card reveal">
+          <time datetime="2026-06-12">June 12, 2026</time>
+          <h3>Destination wedding guest experience tips</h3>
+          <p>Welcome desks, local guides, room-drop gifts, and transport planning help guests feel cared for before the
+            event begins.</p>
+        </article>
+      </div>
+    </section>
 
-      <section class="section events" id="events">
-        <div class="section-heading reveal">
-          <p class="eyebrow">Featured Events</p>
-          <h2>Upcoming experiences crafted for every audience.</h2>
-        </div>
+    <section class="cta" id="contact">
+      <div class="cta-content reveal">
+        <p class="eyebrow">Start Planning</p>
+        <h2>Ready to make your next event feel effortless?</h2>
+        <p>Tell us your date, guest count, and event style. We will create a professional plan that fits your vision.
+        </p>
+        <form class="contact-form">
+          <input type="text" name="name" placeholder="Your name" aria-label="Your name" required />
+          <input type="email" name="email" placeholder="Email address" aria-label="Email address" required />
+          <select name="eventType" aria-label="Event type" required>
+            <option value="">Event type</option>
+            <option>Corporate</option>
+            <option>Wedding</option>
+            <option>Festival</option>
+            <option>Private Party</option>
+          </select>
+          <button class="btn primary" type="submit">Send Request</button>
+        </form>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
 
-        <div class="filters reveal" aria-label="Event filters">
-          <button class="filter active" type="button" data-filter="all">All</button>
-          <button class="filter" type="button" data-filter="corporate">Corporate</button>
-          <button class="filter" type="button" data-filter="wedding">Wedding</button>
-          <button class="filter" type="button" data-filter="festival">Festival</button>
-        </div>
 
-        <div class="event-grid">
-          <article class="event-card reveal" data-category="corporate">
-            <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=800&q=80" alt="Corporate conference audience" />
-            <div>
-              <p>Aug 18, 2026</p>
-              <h3>Global Business Summit</h3>
-              <span>Delhi Convention Center</span>
-            </div>
-          </article>
-          <article class="event-card reveal" data-category="wedding">
-            <img src="https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&w=800&q=80" alt="Wedding ceremony decoration" />
-            <div>
-              <p>Sep 09, 2026</p>
-              <h3>Royal Wedding Showcase</h3>
-              <span>Udaipur Lake Palace</span>
-            </div>
-          </article>
-          <article class="event-card reveal" data-category="festival">
-            <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80" alt="Festival crowd with stage lights" />
-            <div>
-              <p>Oct 22, 2026</p>
-              <h3>Neon Nights Festival</h3>
-              <span>Mumbai Open Grounds</span>
-            </div>
-          </article>
-        </div>
-      </section>
+  <footer class="site-footer">
+    <p>© 2026 JoesEvent. All Rights Reserved.</p>
 
-      <section class="section updates" id="updates">
-        <div class="section-heading reveal">
-          <p class="eyebrow">News & Updates</p>
-          <h2>Fresh ideas from the event floor.</h2>
-        </div>
-        <div class="update-grid">
-          <article class="update-card reveal">
-            <time datetime="2026-07-02">July 02, 2026</time>
-            <h3>How immersive lighting is changing luxury celebrations</h3>
-            <p>Layered lighting, projection moments, and warm ambient zones now shape the emotional rhythm of premium events.</p>
-          </article>
-          <article class="update-card reveal">
-            <time datetime="2026-06-25">June 25, 2026</time>
-            <h3>Corporate event checklists that actually save time</h3>
-            <p>Strong timelines, clear ownership, and early vendor locks make conferences feel calm from registration to closing.</p>
-          </article>
-          <article class="update-card reveal">
-            <time datetime="2026-06-12">June 12, 2026</time>
-            <h3>Destination wedding guest experience tips</h3>
-            <p>Welcome desks, local guides, room-drop gifts, and transport planning help guests feel cared for before the event begins.</p>
-          </article>
-        </div>
-      </section>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-x-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </footer>
 
-      <section class="cta" id="contact">
-        <div class="cta-content reveal">
-          <p class="eyebrow">Start Planning</p>
-          <h2>Ready to make your next event feel effortless?</h2>
-          <p>Tell us your date, guest count, and event style. We will create a professional plan that fits your vision.</p>
-          <form class="contact-form">
-            <input type="text" name="name" placeholder="Your name" aria-label="Your name" required />
-            <input type="email" name="email" placeholder="Email address" aria-label="Email address" required />
-            <select name="eventType" aria-label="Event type" required>
-              <option value="">Event type</option>
-              <option>Corporate</option>
-              <option>Wedding</option>
-              <option>Festival</option>
-              <option>Private Party</option>
-            </select>
-            <button class="btn primary" type="submit">Send Request</button>
-          </form>
-          <p class="form-status" role="status" aria-live="polite"></p>
-        </div>
-      </section>
-    </main>
 
-    <footer class="site-footer">
-      <p>&copy; 2026 JoesEvent. Professional Event Management.</p>
-      <a href="#top">Back to top</a>
-    </footer>
+  <script src="script.js"></script>
+</body>
 
-    <script src="script.js"></script>
-  </body>
 </html>
